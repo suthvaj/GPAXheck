@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ผู้ดูแลระบบ | ประชานิเวศน์</title><meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/admin.css"></head>
+<body>
+<div id="loginView" class="login"><div class="hero"><div class="logo"><img src="assets/images/logo.png" alt="" onerror="this.replaceWith('ตรา')"></div><h1>ผู้ดูแลระบบ</h1><h2>โรงเรียนมัธยมประชานิเวศน์</h2></div>
+<form class="card" id="lf" novalidate><label for="u">ชื่อผู้ใช้</label><input id="u" autocomplete="username" autocapitalize="none">
+<label for="p" style="margin-top:12px">รหัสผ่าน</label><div class="pw"><input id="p" type="password" autocomplete="current-password"><button type="button" id="tp">แสดง</button></div>
+<div class="err" id="le" role="alert"></div><button class="btn full" id="lb" type="submit"><span>เข้าสู่ระบบ</span></button></form></div>
+<div id="appView" class="app" hidden><nav class="side" id="nav"></nav><main id="main"></main></div>
+<div id="modal" class="ov" hidden></div>
+<script src="assets/js/api.js"></script><script src="assets/js/admin.js"></script></body></html>
